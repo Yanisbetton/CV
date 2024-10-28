@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(90deg, #000091, #e1000f);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.profile-pic {
+        float: left;
+        margin-right: 20px;
+        border-radius: 50%;
+        width: 25%;
+        height: auto;
+        object-fit: cover;
+    }
+    
+.image-sport {
+        float: left;
+        margin-right: 20px;
+        border-radius: 50%;
+        width: 15%;
+        height: auto;
+        object-fit: cover;
+    }
+
+.container.container.mt-5 {
+    color: #ffd900b0;
+}
