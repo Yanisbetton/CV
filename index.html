@@ -3,54 +3,47 @@
 <head>
     <link rel="icon" type="image/vnd.icon" href="Ico/Designer.ico">
     <meta charset="UTF-8">
-    
     <link href="style.css" rel="stylesheet">
-
-    <meta name="description" content= "Curriculum vitae de Yanis BETTON, alternance informaticien." >
-
+    <meta name="description" content="Curriculum vitae de Yanis BETTON, alternance informaticien.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CURRICULUM VITAE</title>
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         .content-section {
             display: none;
         }
-
         .content-active {
-            display:block!important;
+            display: block !important;
         }
     </style>
-    
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="#">CURRICULUM VITAE</a>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#" id="accueil-link">Accueil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" id="formation-link">Formation</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" id="experience-link">Experience en Professionelle</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" id="activites-link">Activités sportives et associatives</a>
-              </li>
-            </ul>
-          </div>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">CURRICULUM VITAE</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#" id="accueil-link">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="formation-link">Formation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="experience-link">Experience en Professionelle</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="activites-link">Activités sportives et associatives</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
 
-      <script>
+    <script>
         document.getElementById('accueil-link').addEventListener('click', function() {
             showSection('accueil');
         });
@@ -63,7 +56,7 @@
         document.getElementById('activites-link').addEventListener('click', function() {
             showSection('activites');
         });
-    
+
         function showSection(sectionId) {
             var sections = document.querySelectorAll('.content-section');
             sections.forEach(function(section) {
@@ -72,86 +65,75 @@
             document.getElementById(sectionId).classList.add("content-active");
         }
     </script>
-    
-      
+
     <div class="container mt-5">
-
         <div id="accueil" class="content-section content-active">
-        <img src="image/profils.webp" alt="Photo de profil" class="profile-pic">
-        <h1>CURRICULUM VITAE</h1>
-        <h2>Yanis BETTON</h2>
-        <p>Date de naissance: demandez à ma secrétaire.</p>
-        <p>Adresse mail : demandez à ma secrétaire.</p>
-        <p>Numéro de téléphone : demandez à ma secrétaire.</p>
-        <p> </p>
-        <p><strong>Information :</strong></p>
-        <p>Je n'ai pas de secrétaire.</p>
-        <div style="clear:both"></div>
+            <img src="image/profils.webp" alt="Photo de profil" class="profile-pic">
+            <h1>CURRICULUM VITAE</h1>
+            <h2>Yanis BETTON</h2>
+            <p>Date de naissance: demandez à ma secrétaire.</p>
+            <p>Adresse mail : demandez à ma secrétaire.</p>
+            <p>Numéro de téléphone : demandez à ma secrétaire.</p>
+            <p><strong>Information :</strong></p>
+            <p>Je n'ai pas de secrétaire.</p>
+            <div style="clear:both"></div>
         </div>
-      <div id="formation" class="content-section">
-        <h2>Formation</h2>
-        <h3>2024-2025</h3>
-
-            <ul><li><strong> Classe premier année de BTS Ciel (Cybersécurité, Informatique et réseaux, Électronique)</ul></li></strong>       
-        <h3>2023-2024</h3>
-        
-            <ul><li><strong>  Classe de T SN (Système Numérique)</strong></li></ul>
-          <ul>
-                <li>    Lycée Professionnel Privé Marc Seguin, Annonay (07)</li>
-          </ul>
-        
-        <h3>2022-2023</h3>
-        
-            <ul><li><strong>  Classe de 1ère SN (Système Numérique)</strong><li></ul>
-        <ul>
-                <li>    Lycée Professionnel Privé Marc Seguin, Annonay (07)</li>
-        </ul>
-        
-        <h3>2021-2022</h3>
-        
-            <ul><li><strong>  Classe de 2nde pro MTNE (Métiers des Transitions Numériques et Énergétiques)</strong></li></ul>
-        <ul>
-                <li>    Lycée Professionnel Privé Marc Seguin, Annonay (07)</li>
-        </ul>
-        
-        <h3>Juin 2021</h3>
-        
-            <ul><li><strong>  Diplôme National du Brevet des Collèges – mention AB</strong></li></ul>
-        <ul>
-                <li>    Collège de Saint-Joseph en Val d'Ay – Satillieu (07)</li>
-        </ul>        
-      </div>
-
-      <div id="experience" class="content-section">
-        <h2>Experience en Professionelle en entreprise</h2>
-        <h3>Stages et alternance au cours de ma formation Bac SN et BTS Ciel</h3>
-        <ul>
-            <li><strong>Alternance 2024-2026</strong> : FIDEVI</li>
-            <li><strong>Février 2024</strong> : BERT</li>
-            <li><strong>Septembre 2023</strong> : STS COMPOSITE</li>
-            <li><strong>Juin 2023</strong> : XPO LOGISTICS</li>
-            <li><strong>Novembre-Décembre 2022</strong> : FIDEVI</li>
-            <li><strong>Juin 2022</strong> : LE MONDE DU MULTI MÉDIA</li>
-            <li><strong>Mai 2022</strong> : CHAM</li>
-        </ul>
-      </div>
-
-      <div id="activites" class="content-section">
-        <h2>Activités sportives et associatives</h2>
-        <ul>
-            <li>Pratique de la natation à Annonay (07)</li>
-            <li>Pratique du tennis pendant 2 ans - Tennis club de St Vallier (26)</li>
-            <li>Tir à l’arc à Satillieu (07)</li>
-            <li>Scout de France</li>
-            <li>Trésorier de l’association des conscrits de Quintenas 2026</li>
-        </ul>
-      <div class="images">
-        <img src="image/natation.webp" alt="Image 1" class="image-sport">
-        <img src="image/tennis.webp" alt="Image 2" class="image-sport">
-        <img src="image/scouts.webp" alt="Image 3" class="image-sport">
-        <img src="image/tresorier.webp" alt="Image 4" class="image-sport">
-      </div>
-    </div>
+        <div id="formation" class="content-section">
+            <h2>Formation</h2>
+            <h3>2024-2025</h3>
+            <ul>
+                <li><strong>Classe premier année de BTS Ciel (Cybersécurité, Informatique et réseaux, Électronique)</strong></li>
+            </ul>
+            <h3>2023-2024</h3>
+            <ul>
+                <li><strong>Classe de T SN (Système Numérique)</strong></li>
+                <li>Lycée Professionnel Privé Marc Seguin, Annonay (07)</li>
+            </ul>
+            <h3>2022-2023</h3>
+            <ul>
+                <li><strong>Classe de 1ère SN (Système Numérique)</strong></li>
+                <li>Lycée Professionnel Privé Marc Seguin, Annonay (07)</li>
+            </ul>
+            <h3>2021-2022</h3>
+            <ul>
+                <li><strong>Classe de 2nde pro MTNE (Métiers des Transitions Numériques et Énergétiques)</strong></li>
+                <li>Lycée Professionnel Privé Marc Seguin, Annonay (07)</li>
+            </ul>
+            <h3>Juin 2021</h3>
+            <ul>
+                <li><strong>Diplôme National du Brevet des Collèges – mention AB</strong></li>
+                <li>Collège de Saint-Joseph en Val d'Ay – Satillieu (07)</li>
+            </ul>
+        </div>
+        <div id="experience" class="content-section">
+            <h2>Experience en Professionelle en entreprise</h2>
+            <h3>Stages et alternance au cours de ma formation Bac SN et BTS Ciel</h3>
+            <ul>
+                <li><strong>Alternance 2024-2026</strong> : FIDEVI</li>
+                <li><strong>Février 2024</strong> : BERT</li>
+                <li><strong>Septembre 2023</strong> : STS COMPOSITE</li>
+                <li><strong>Juin 2023</strong> : XPO LOGISTICS</li>
+                <li><strong>Novembre-Décembre 2022</strong> : FIDEVI</li>
+                <li><strong>Juin 2022</strong> : LE MONDE DU MULTI MÉDIA</li>
+                <li><strong>Mai 2022</strong> : CHAM</li>
+            </ul>
+        </div>
+        <div id="activites" class="content-section">
+            <h2>Activités sportives et associatives</h2>
+            <ul>
+                <li>Pratique de la natation à Annonay (07)</li>
+                <li>Pratique du tennis pendant 2 ans - Tennis club de St Vallier (26)</li>
+                <li>Tir à l’arc à Satillieu (07)</li>
+                <li>Scout de France</li>
+                <li>Trésorier de l’association des conscrits de Quintenas 2026</li>
+            </ul>
+            <div class="images">
+                <img src="image/natation.webp" alt="Image 1" class="image-sport">
+                <img src="image/tennis.webp" alt="Image 2" class="image-sport">
+                <img src="image/scouts.webp" alt="Image 3" class="image-sport">
+                <img src="image/tresorier.webp" alt="Image 4" class="image-sport">
+            </div>
+        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
